@@ -1,0 +1,693 @@
+* {padding: 0; margin: 0}
+
+.container {width: 1200px; margin: auto;}
+
+.logo a {
+    font-size: 33px;
+    font-weight: bold;
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+menu a {color:black;}
+
+nav ul li{
+    float: Right;
+    list-style: none;
+    background-color: white;
+}
+
+nav ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 3px 15px;
+}
+
+nav ul li ul{
+    display: none;
+    position: inline-block;
+}
+
+nav ul li:hover > ul{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+nav{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav ul li ul{
+    position: absolute;
+}
+
+nav ul li ul li{
+    float: none;
+    position: relative;
+}
+
+nav ul li:hover{
+    background-color: #90CCB8;
+    
+}
+
+nav ul li a:hover{
+    color:#336756;
+
+}
+
+nav ul ul ul{
+    left: 100%;
+    top:0;
+    width: 200px;
+}
+
+
+article .g1 img {width : 1100px; height: 500px; filter: brightness(0.6)}
+article .g2 img {width : 356.5px; margin-top: 15px; float: left; filter: brightness(0.6); padding-right: 15px;}
+article .g3 img {width : 356.5px; margin-top: 15px; float: left; filter: brightness(0.6); padding-right: 15px;}
+article .g4 img {width : 356.5px; margin-top: 15px; float: left; filter: brightness(0.6);}
+
+.g1 {position: relative;}
+.g1 .judul {font-size: 30px; color: white; text-align: center; margin-top: 10px; position: absolute; top: 30%;
+			left: 0; right: 0;}
+.g1 .keterangan {font-size: 20px; text-align: center; color: white; position: absolute; top: 40%; left: 0; right: 0;}
+
+.g1 a {font-size: 20px; text-align: center; color: white; position: absolute; top: 60%; left: 0; right: 0;
+	   text-decoration: none; background-color: black; padding: 10px; width: 100px; margin-left: 42%; border-radius: 7px; width: 145px;}				 
+
+
+article .g2 {position: relative;}
+article .g2 .judul {display: block; position: absolute; margin: 165px 0 0 125px; font-size: 30px; color:white;}
+article .g2 a{display: block; position: absolute; margin: 205px 0 0 130px; text-decoration: none; color: white;
+			  font-size: 20px;} 
+
+article .g3 {position: relative;}
+article .g3 .judul {display: block; position: absolute; margin: 165px 0 0 480px; font-size: 30px; color:white;}
+article .g3 a{display: block; position: absolute; margin: 205px 0 0 500px; text-decoration: none; color: white;
+			  font-size: 20px;} 
+
+article .g4 {position: relative;}
+article .g4 .judul {display: block; position: absolute; margin: 165px 0 0 880px; font-size: 30px; color:white;}
+article .g4 a{display: block; position: absolute; margin: 205px 0 0 880px; text-decoration: none; color: white;
+			  font-size: 20px;} 
+			  
+
+
+.popular-products {float: left; font-size: 22px; margin-bottom: 20px; margin-top : 55px;}
+.viewap {float: right; margin-top: 45px; margin-bottom: 20px; font-size: 15px; background-color: black; color: white;
+		 padding: 10px; border-radius: 7px;}
+.viewap p:hover {cursor: pointer;}
+
+.enamgambar {float:left;}
+.enamgambar .gambar1 {
+    width: 333.3px; 
+    float: left; 
+    margin-right: 50px; 
+	margin-top: 20px;
+}
+
+.enamgambar .gambar2 {
+    width: 333.3px; 
+    float: left; 
+    margin-right: 50px; 
+	margin-top: 20px;
+}
+
+.enamgambar .gambar3 {
+    width: 333.3px; 
+    float: left; 
+	margin-top: 20px;
+}
+
+.enamgambar .gambar1 .judul {margin-top: 15px;}
+.enamgambar .gambar2 .judul {margin-top: 15px;}
+.enamgambar .gambar3 .judul {margin-top: 15px;}
+.coretharga{opacity: 0.6; text-decoration: line-through;}
+
+
+
+
+.enamgambarbwh {float:left;}
+.enamgambarbwh .gambar1 {
+    width: 333.3px; 
+    float: left; 
+    margin-right: 50px; 
+	margin-top: 20px;
+}
+
+.enamgambarbwh .gambar2 {
+    width: 333.3px; 
+    float: left; 
+    margin-right: 50px; 
+	margin-top: 20px;
+}
+
+.enamgambarbwh .gambar3 {
+    width: 333.3px; 
+    float: left; 
+	margin-top: 20px;
+}
+
+.enamgambarbwh .gambar1 .judul {margin-top: 15px;}
+.enamgambarbwh .gambar2 .judul {margin-top: 15px;}
+.enamgambarbwh .gambar3 .judul {margin-top: 15px;}
+.coretharga{opacity: 0.6; text-decoration: line-through;}
+
+
+
+.pembatasfull {width: 100%;
+    height: 200px;
+    background-color: #f4f6f3;
+	margin-top: 1350px;}
+	
+.pembatas1 {width: 1200px;
+    height: 50px;
+    margin: auto;
+    background-color: #f4f6f3;
+    position: relative;}
+	
+.pembatas1 .gambar1 {
+    width: 333.3px; 
+    float: left; 
+    margin-right: 50px; 
+	margin-top: 35px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.pembatas1 .gambar2 {
+    width: 333.3px; 
+    float: left; 
+    margin-right: 50px; 
+	margin-top: 35px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.pembatas1 .gambar3 {
+    width: 333.3px; 
+    float: left;  
+	margin-top: 35px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.pembatas1 .gambar1 .judul {margin-bottom: 9px;}
+.pembatas1 .gambar2 .judul {margin-bottom: 9px;}
+.pembatas1 .gambar3 .judul {margin-bottom: 9px;}
+
+
+.duakolom {width: 1100px; margin: auto; overflow: hidden; margin-bottom: 35px;}
+.kiri {width: 500px; float:left; margin-top: 50px;}
+.kanan {width: 500px; float:left; margin-top: 50px;}
+
+.kanan img {width : 500px; margin-left: 100px; border-radius: 7px;} 
+
+.margintop15 {margin-top: 15px;}
+.margintop10 {margin-top: 10px;}
+.margintop50 {margin-top: 50px;}
+.margintop30 {margin-top: 30px;}
+.marginmin {margin-left: -1890px;}
+
+.duakolom .kiri a {text-decoration: none;}
+.duakolom .kiri a p {background-color: black; color:white; width: 111px; padding: 10px; text-align: center; border-radius: 7px}
+
+.pembatasfullbawah {width: 100%;
+    height: 500px;
+    background-color: #f4f6f3;
+	}
+	
+.tigakolom {width: 1200px;
+    height: 50px;
+    margin: auto;
+	margin-top: 40px;
+    background-color: #f4f6f3;
+    position: relative;}
+	
+.testimonials {margin-left: 1500px; padding-top: 10px;}	
+.kiri3kol {width: 300px; float:left; margin-top: 50px; margin-right: 15px; background-color: white; padding: 30px; border-radius: 8px}
+.tengah3kol {width: 300px; float:left; margin-top: 50px; margin-right: 15px; background-color: black; color:white; padding: 30px; border-radius: 8px}
+.kanan3kol {width: 300px; float:left; margin-top: 50px; background-color: white; padding: 30px; border-radius: 8px}
+
+.tekscenter {text-align:center;}
+
+footer {width: 100%;
+    height: 500px;
+    background-color: black;}
+	
+.tigakolomfoot {
+	width: 1200px;
+    margin: auto;
+    background-color: #f4f6f3;
+    position: relative;
+}
+
+.kirifoot {width: 300px; float:left; margin-top: 50px; margin-right: 75px; color:white; margin-left: 10px; }
+.tengahfoot {width: 370px; float:left; margin-top: 50px; margin-right: 15px; color:white;}
+.kananfoot {width: 300px; float:left; margin-top: 50px; margin-right: 15px; color:white;}
+.bawahfoot {width: 1100px; float:left; margin-top: 50px; margin-right: 15px; color:white; text-align: center; margin-bottom: 30px; margin-left: -1070px; margin-top: 400px;}
+
+.kirifoot img:hover {width: 52px; cursor: pointer;}
+.kirifootbotus img:hover {width: 52px; cursor: pointer;}
+.kirifootconus img:hover {width: 52px; cursor: pointer;}
+
+
+.garisbawah {
+  position: relative;
+}
+
+.garisbawah::after { 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 18%; 
+  height: 1px; 
+  background-color: gray; 
+}
+
+.news1 {display: flex; align-items: center;}
+.news1 img {margin-right: 15px; width: 40px;}
+.news1 .info1 {display: flex; flex-direction: column;}
+
+.news2 {display: flex; align-items: center;}
+.news2 img {margin-right: 15px; width: 40px;}
+.news2 .info2 {display: flex; flex-direction: column;}
+
+.news3 {display: flex; align-items: center;}
+.news3 img {margin-right: 15px; width: 40px;}
+.news3 .info3 {display: flex; flex-direction: column;}
+
+.fontsizeup {font-size: 25px;}
+
+
+
+input[type=text] {padding: 8px; margin-top: 10px; background-color: white; color: black; border-radius: 6px}
+input[type=submit] {padding: 8px; cursor: pointer; border-radius: 6px;}
+
+.bawahfoot p {opacity: 0.7; border-top: 2px solid gray; padding-top: 20px;}
+
+
+.maps {background-color: #f4f6f3;margin: auto;width: 1100px;overflow: hidden; }
+iframe {width: 1100px;height: 900px;
+        overflow: hidden;position:relative ;}
+		
+.kirifootconus {width: 300px; float:left; margin-top: 50px; margin-right: 75px; color:white; margin-left: 60px; }
+.kirifootbotus {width: 300px; float:left; margin-top: 50px; margin-right: 75px; color:white; margin-left: 55px; }
+.kirifootshop {width: 300px; float:left; margin-top: 50px; margin-right: 75px; color:white; margin-left: 60px; }
+
+.container2 {width: 100%; background-color: #fafafa; height: 1500px;}
+.containershopnowdua {width: 100%; background-color: #fafafa; height: 1100px;}
+.duakolomcon2 {width: 1200px; margin: auto; overflow: hidden; margin-bottom: 35px;}
+.kolomkiri {width: 650px; float:left; margin-top: 50px; margin-left: 60px;}
+.kolomkanan {width: 320px; float:left; margin-top: 50px; background-color:white; margin-left: 55px; padding: 20px;}
+
+.opacitydown {opacity: 0.6;}
+.opacitydowndua {opacity: 0.8;}
+
+.infoatas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kotakin {padding: 15px; background-color:white; text-align: center; border: 1px solid black; opacity: 0.8;}
+
+.enamgambarshop {float:left;}
+.enamgambarshop .gambar1shop {
+    width: 160px; 
+    float: left; 
+    margin-right: 70px; 
+	margin-top: 40px;
+}
+
+.enamgambarshop .gambar2shop {
+    width: 160px; 
+    float: left; 
+    margin-right: 70px; 
+	margin-top: 40px;
+}
+
+.enamgambarshop .gambar3shop {
+    width: 160px; 
+    float: left; 
+	margin-top: 40px;
+}
+
+.enamgambarshop .gambar1shop .judul {margin-top: 15px;}
+.enamgambarshop .gambar2shop .judul {margin-top: 15px;}
+.enamgambarshop .gambar3shop .judul {margin-top: 15px;}
+.enamgambarshop .gambarproduk img {width: 200px;}
+
+.kecilingambar {width: 50px;}
+
+.kotakinhitam {padding: 10px; background-color:black; text-align: center; color:white; border-radius: 7px; width: 100px;}
+.efekursor b:hover {cursor: pointer;}
+select {width: 200px; font-size: 15px; background: white; padding:10px; border: 2px solid black;}
+
+
+
+.enamgambarshoptengah {float:left;}
+.enamgambarshoptengah .gambar1shop {
+    width: 160px; 
+    float: left; 
+    margin-right: 70px; 
+	margin-top: 40px;
+}
+
+.enamgambarshoptengah .gambar2shop {
+    width: 160px; 
+    float: left; 
+    margin-right: 70px; 
+	margin-top: 40px;
+}
+
+.enamgambarshoptengah .gambar3shop {
+    width: 160px; 
+    float: left; 
+	margin-top: 40px;
+}
+
+.enamgambarshoptengah .gambar1shop .judul {margin-top: 15px;}
+.enamgambarshoptengah .gambar2shop .judul {margin-top: 15px;}
+.enamgambarshoptengah .gambar3shop .judul {margin-top: 15px;}
+.enamgambarshoptengah .gambarproduk img {width: 200px;}
+
+
+
+.enamgambarshopbawah {float:left;}
+.enamgambarshopbawah .gambar1shop {
+    width: 160px; 
+    float: left; 
+    margin-right: 70px; 
+	margin-top: 40px;
+}
+
+.enamgambarshopbawah .gambar2shop {
+    width: 160px; 
+    float: left; 
+    margin-right: 70px; 
+	margin-top: 40px;
+}
+
+.enamgambarshopbawah .gambar3shop {
+    width: 160px; 
+    float: left; 
+	margin-top: 40px;
+}
+
+.enamgambarshopbawah .gambar1shop .judul {margin-top: 15px;}
+.enamgambarshopbawah .gambar2shop .judul {margin-top: 15px;}
+.enamgambarshopbawah .gambar3shop .judul {margin-top: 15px;}
+.enamgambarshopbawah .gambarproduk img {width: 200px;}
+
+
+.popularsatu {
+    display: flex;
+    align-items: center;
+	border-bottom: 1px solid silver;
+}
+.popularsatu p {font-size: 20px; margin-top: 40px; margin-bottom: 15px;}
+.popularsatu img {width: 60px; margin-top: 50px; margin-right: 15px; margin-bottom: 15px;}
+.popularsatu p:hover {cursor:pointer}
+.popularsatu img:hover {cursor:pointer}
+
+.populardua {
+    display: flex;
+    align-items: center;
+	border-bottom: 1px solid silver;
+}
+.populardua p {font-size: 20px; margin-top: 16px; margin-bottom: 15px;}
+.populardua img {width: 60px; margin-top: 15px; margin-right: 15px; margin-bottom: 15px;}
+.populardua p:hover {cursor:pointer}
+.populardua img:hover {cursor:pointer}
+
+.populartiga {
+    display: flex;
+    align-items: center;
+	border-bottom: 1px solid silver;
+}
+.populartiga p {font-size: 20px; margin-top: 16px; margin-bottom: 15px;}
+.populartiga img {width: 60px; margin-top: 15px; margin-right: 15px; margin-bottom: 15px;}
+.populatiga p:hover {cursor:pointer}
+.populartiga img:hover {cursor:pointer}
+
+.popularempat {
+    display: flex;
+    align-items: center;
+	border-bottom: 1px solid silver;
+}
+.popularempat p {font-size: 20px; margin-top: 16px; margin-bottom: 15px;}
+.popularempat img {width: 60px; margin-top: 15px; margin-right: 15px; margin-bottom: 15px;}
+.popularempat p:hover {cursor:pointer}
+.popularempat img:hover {cursor:pointer}
+
+.lookforsomting input[type=text] {padding: 8px; margin-top: 10px; background-color: white; color: black; border-radius: 3px; width: 240px;}
+.lookforsomting input[type=submit] {margin-left: 5px; padding: 8px; cursor: pointer; border-radius: 5px; background-color: black; color:white;}
+
+.filterharga {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.filterharga input[type=text] {padding: 8px; margin-top: 5px; background-color: white; color: black; border-radius: 3px; width: 80px;}
+
+.besaringambar {width: 320px;}
+.besaringambar2 {width: 52px;}
+
+.kirifootshop img:hover {width: 52px; cursor: pointer;}
+.medsoshop img:hover {cursor: pointer; opacity: 0.7;}
+
+
+
+.pagination {margin-left: 250px;}
+.pagination a {
+    display: inline-block;
+	margin-right: 10px;
+	margin-top: 60px;
+    text-decoration: none; 
+    color:black;
+    font-weight: bold;
+}
+
+.pagination a[href="layout11.html"] p {
+    background-color: white ;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.pagination a[href="Layout2.html"] p {
+    background-color: #323232;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+	border: 1px solid silver;
+}
+
+
+
+
+.containermyaccount {width: 100%; background-color: #f4f6f3; height: 465px; padding-top: 50px;}
+.condalam {width: 1050px; margin: auto; padding : 20px; background-color:white;}
+
+.upfontsize {font-size: 25px;}
+
+.form1 input {width: 1010px;}
+.form2 input {width: 1025px; height: 30px; border-radius: 7px;}
+
+.bckghitam{background-color: black; color: white; padding: 7px 10px 7px 10px; width: 50px; text-align: center; border-radius: 7px; margin-right: 20px;}
+.logremember {
+    display: flex;
+}
+.logremember input {margin-top: 30px;}
+.margintop28 {margin-top: 28px; margin-left: 5px;}
+
+.condalam a {color: black;}
+
+
+.containerourteam{width: 100%; background-color: #f4f6f3; height: 200px; padding-top: 50px;}
+.tigakolomteam {width: 1100px; margin: auto; overflow: hidden; margin-bottom: 35px;}
+.kiriteam {width: 300px; float:left; margin-top: 19px; margin-right: 50px; margin-left: 20px;}
+.tengahteam {width: 300px; float:left; margin-top: 35px;  margin-right: 60px;}
+.kananteam {width: 300px; float:left; margin-top: 35px;}
+
+.sizefont50 {font-size: 50px; border-left: 3px solid black; padding-left: 20px;}
+
+
+
+.thefounders {width: 1100px; background-color: white; height: 460px; margin: auto;}
+.thefounders h1 {text-align: center; margin-top: 40px; font-size: 50px;}
+.thefounders img {padding: 30px;}
+.marginkiri50 {margin-left: 140px;}
+
+.kananaboutus img {width : 200px; margin-left: 220px; border-radius: 7px; margin-top: 52px; margin-bottom: 40px;} 
+
+footer {
+    margin-top: -400px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 6rem;
+  }
+  .footer-item-title h4 {
+    font-size: 1.2rem;
+  }
+  .footer-item-title hr {
+    height: 1px;
+    background-color: #6d6d6d;
+    width: 10%;
+    margin: 0.8rem 0;
+  }
+  .footer-item .about-description {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+  
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .news-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .news-item img {
+    width: 50px;
+    height: 50px;
+  }
+  .news-info h5 {
+    font-size: 0.9rem;
+  }
+  .news-info p {
+    font-size: 0.8rem;
+  }
+
+  
+  footer .footer-divider {
+    height: 0.1px;
+    background-color: #6d6d6d;
+    margin: 1rem 0;
+  }
+  .copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .footer-item .input {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .footer-item .input input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .footer-item .input .btn-subscribe {
+    padding: 0 1rem;
+    background-color: #FFFFFF;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+  }
+  .footer-item .newsletter-desc {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  .footer-socmed-list {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .socmed-item {
+    transition: transform 0.3s ease-in-out;
+  }
+  .socmed-item img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .socmed-item:hover {
+    transform: scale(1.2);
+  }
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+    .navbar-menu {
+      display: none;
+    }
+    .btn-hamburger {
+      display: block;
+    }
+    .hero {
+      min-height: 50vh;
+    }
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+    .footer-item {
+      margin: 1rem 0;
+    }
+    #sidebar {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-menu {
+      display: none;
+    }
+    .btn-hamburger {
+      display: block;
+    }
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+    .hero-content p {
+      font-size: 1rem;
+    }
+    .category-container {
+      grid-template-columns: 1fr;
+    }
+    .product-list {
+      grid-template-columns: 1fr;
+    }
+    .services-list {
+      grid-template-columns: 1fr;
+      gap: 4rem;
+    }
+    .values-container {
+      grid-template-columns: 1fr;
+    }
+    .testimonials-list {
+      grid-template-columns: 1fr;
+    }
+    .btn-cta {
+      text-align: center;
+    }
+    .btn-subscribe {
+      padding: 0 0.5rem;
+    }
+
+  }
+  

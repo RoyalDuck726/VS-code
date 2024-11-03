@@ -1,0 +1,298 @@
+* {padding: 0; margin: 0}
+
+.container {width: 1200px; margin: auto;}
+
+.logo a {
+    font-size: 33px;
+    font-weight: bold;
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+menu a {color:black;}
+
+nav ul li{
+    float: Right;
+    list-style: none;
+    background-color: white;
+}
+
+nav ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 3px 15px;
+}
+
+nav ul li ul{
+    display: none;
+    position: inline-block;
+}
+
+nav ul li:hover > ul{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+nav{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav ul li ul{
+    position: absolute;
+}
+
+nav ul li ul li{
+    float: none;
+    position: relative;
+}
+
+nav ul li:hover{
+    background-color: #90CCB8;
+    
+}
+
+nav ul li a:hover{
+    color:#336756;
+
+}
+
+nav ul ul ul{
+    left: 100%;
+    top:0;
+    width: 200px;
+}
+
+.luar{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.dalam{
+    margin: auto;
+    width: 1200px;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.Daleman h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Daleman h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Daleman {
+    padding: 50px 70px 50px 70px;
+    background-color: white;
+}
+
+.Username input {
+    font-size: 18px;
+    width: 1000px;
+    height: 40px;
+}
+.Password input {
+    font-size: 18px;
+    width: 1000px;
+    height: 40px;
+}
+
+.Remem input {
+    float: left;
+    margin-left: 20px;
+}
+
+button{
+    background-color: #000000;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+.Remember {
+    float: right;
+    overflow: hidden;
+    margin-right: 855px;
+    margin-top: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Daleman a {
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 6rem;
+  }
+  .footer-item-title h4 {
+    font-size: 1.2rem;
+  }
+  .footer-item-title hr {
+    height: 1px;
+    background-color: #6d6d6d;
+    width: 10%;
+    margin: 0.8rem 0;
+  }
+  .footer-item .about-description {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+  
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .news-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .news-item img {
+    width: 50px;
+    height: 50px;
+  }
+  .news-info h5 {
+    font-size: 0.9rem;
+  }
+  .news-info p {
+    font-size: 0.8rem;
+  }
+
+  
+  footer .footer-divider {
+    height: 0.1px;
+    background-color: #6d6d6d;
+    margin: 1rem 0;
+  }
+  .copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .footer-item .input {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .footer-item .input input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .footer-item .input .btn-subscribe {
+    padding: 0 1rem;
+    background-color: #FFFFFF;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+  }
+  .footer-item .newsletter-desc {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  .footer-socmed-list {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .socmed-item {
+    transition: transform 0.3s ease-in-out;
+  }
+  .socmed-item img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .socmed-item:hover {
+    transform: scale(1.2);
+  }
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+    .navbar-menu {
+      display: none;
+    }
+    .btn-hamburger {
+      display: block;
+    }
+    .hero {
+      min-height: 50vh;
+    }
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+    .footer-item {
+      margin: 1rem 0;
+    }
+    #sidebar {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-menu {
+      display: none;
+    }
+    .btn-hamburger {
+      display: block;
+    }
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+    .hero-content p {
+      font-size: 1rem;
+    }
+    .category-container {
+      grid-template-columns: 1fr;
+    }
+    .product-list {
+      grid-template-columns: 1fr;
+    }
+    .services-list {
+      grid-template-columns: 1fr;
+      gap: 4rem;
+    }
+    .values-container {
+      grid-template-columns: 1fr;
+    }
+    .testimonials-list {
+      grid-template-columns: 1fr;
+    }
+    .btn-cta {
+      text-align: center;
+    }
+    .btn-subscribe {
+      padding: 0 0.5rem;
+    }
+  }
+  
